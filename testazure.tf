@@ -40,7 +40,7 @@ resource "azurerm_service_plan" "my_app_service" {
   resource_group_name = "test_resource_group"
   os_type             = "Windows"
 
-  sku_name     = "P1v2"
+  sku_name     = "P1v3"
   worker_count = 4 # <<<<<<<<<< Try changing this to 8 to compare the costs
 
   tags = {
